@@ -14,15 +14,38 @@ body {
     clear: left;
 }
 
-.width1 {
+.width1 { 
+    max-width: 1200px;
+    margin: auto;
+}
+
+.width2 {
     max-width: 800px;
     margin: auto;
 }
 
-.topbar-container {
-    max-width: 1200px;
-    height: 70px;
+.width3 {
+    max-width: 600px;
     margin: auto;
+}
+
+.margintop1 {
+    margin-top: 100px;
+}
+
+/*
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    z-index: 9999;
+}
+*/
+
+.topbar-container {
+    height: 70px;
     display: flex;
 }
 
@@ -50,8 +73,26 @@ body {
 }
 
 
+.plan-sec1 {
+    display: flex;
+    justify-content: space-between;
+}
 
+.plan-sec1 > div {
+    width: 30%;
+}
 
+.sec2-container {
+    display: flex;
+}
+
+.left-sec2 {
+    width: 60%;
+}
+
+.right-sec2 {
+    width: 40%
+}
 
 
 /* Debug body class per layout */
@@ -79,5 +120,24 @@ body {
 .debug .sec-right-jumbotron {
     background-color: yellow;
     border: 5px solid black;
-    height: 350px;
+    height: 320px;
 }
+
+.debug .sec1-container .txt1-sec1, .debug .sec1-container .txt2-sec1 {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.debug .plan-sec1 > div {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 400px;
+}
+
+.debug .sec2-container > div {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 250px;
+}
+
