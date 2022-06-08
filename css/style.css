@@ -8,6 +8,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+a {
+    color: #000;
+}
+
 .clearfix-left::after {
     content: '';
     display: table;
@@ -37,6 +46,14 @@ body {
     margin-bottom: 100px;
 }
 
+.button1 {
+    background-color: #0061FF;
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+/* INIZIO HEADER */
+
 header {
     position: fixed;
     top: 0;
@@ -56,6 +73,36 @@ header {
     height: 100%;
     width: calc(100% / 2);
 }
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+}
+
+#logo-main {
+    height: 25px;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.topbar-left ul, .topbar-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.topbar-container a {
+    margin: 0 10px;
+}
+
+.topbar-container ul li .button1 {
+    margin-left: 0;
+}
+
+/* FINE HEADER */
 
 .jumbotron-container {
     margin-top: 70px;
@@ -128,6 +175,7 @@ header {
 }
 
 /* INIZIO loghi Sezione 5 */
+
 .imgleft-sec5 > div {
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
@@ -169,6 +217,7 @@ header {
 .logo8-sec5 {
     background-color: #FFD830;
 }
+
 /* FINE loghi Sezione 5 */
 
 .sec6-container {
