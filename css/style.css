@@ -8,3 +8,76 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.clearfix-left::after {
+    content: '';
+    display: table;
+    clear: left;
+}
+
+.width1 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.topbar-container {
+    max-width: 1200px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+}
+
+.topbar-container > div {
+    height: 100%;
+    width: calc(100% / 2);
+}
+
+.jumbotron-container {
+    background-color: #B4D0E7;
+}
+
+.jumbotron {
+    padding-top: 30px;
+}
+
+.sec-left-jumbotron {
+    width: 30%;
+    float: left;
+}
+
+.sec-right-jumbotron {
+    width:  70%;
+    float: right;
+}
+
+
+
+
+
+
+/* Debug body class per layout */
+
+.debug .topbar-container {
+    background-color: blue;
+}
+
+.debug .topbar-container > div {
+    background-color: orange;
+    border: 5px solid black;
+}
+
+.debug .txt-jumbotron {
+    background-color: yellow;
+    height: 150px;
+}
+
+.debug .sec-left-jumbotron {
+    background-color: yellow;
+    border: 5px solid black;
+    height: 250px;
+}
+
+.debug .sec-right-jumbotron {
+    background-color: yellow;
+    border: 5px solid black;
+    height: 350px;
+}
