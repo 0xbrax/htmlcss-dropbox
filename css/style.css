@@ -33,6 +33,10 @@ body {
     margin-top: 100px;
 }
 
+.marginbottom1 {
+    margin-bottom: 100px;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -167,7 +171,22 @@ header {
 }
 /* FINE loghi Sezione 5 */
 
+.sec6-container {
+    background-color: #B4D0E7;
+}
 
+.sec6-section {
+    padding: 100px 0;
+    display: flex;
+}
+
+.sec-left-sec6 {
+    width: 60%;
+}
+
+.sec-right-sec6 {
+    width: 40%;
+}
 
 
 
@@ -239,4 +258,16 @@ header {
 .debug .img-sec5 > div {
     background-color: yellow;
     border: 5px solid black;
+}
+
+.debug .sec6-section > div {
+    background-color: yellow;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.debug .sec7-container > div {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 100px;
 }
