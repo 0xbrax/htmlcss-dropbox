@@ -12,10 +12,7 @@ a:link {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:active {text-decoration: none;}
 a:hover {text-decoration: none;}
-
-a {
-    color: #000;
-}
+a {color: #000;}
 
 .clearfix-left::after {
     content: '';
@@ -29,12 +26,12 @@ a {
 }
 
 .width2 {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
 .width3 {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -50,6 +47,10 @@ a {
     background-color: #0061FF;
     color: #FFF;
     padding: 5px 10px;
+}
+
+.button1bis {
+    width: 50px;
 }
 
 /* INIZIO HEADER */
@@ -104,8 +105,10 @@ header {
 
 /* FINE HEADER */
 
+/* INIZIO JUMBOTRON */
+
 .jumbotron-container {
-    margin-top: 70px;
+    margin: 70px 0 130px 0;
     background-color: #B4D0E7;
 }
 
@@ -113,15 +116,31 @@ header {
     padding-top: 30px;
 }
 
+.txt-jumbotron {
+    font-size: 28px;
+}
+
 .sec-left-jumbotron {
-    width: 30%;
+    width: 40%;
     float: left;
+    padding: 15px 0;
+}
+
+.sec-left-jumbotron div {
+    margin-top: 30px;
 }
 
 .sec-right-jumbotron {
-    width:  70%;
+    width:  60%;
     float: right;
+    padding-top: 15px;
 }
+
+.sec-right-jumbotron img {
+    width: 100%;
+}
+
+
 
 
 .plan-sec1 {
