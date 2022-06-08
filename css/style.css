@@ -1,58 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-a:link {text-decoration: none;}
-a:visited {text-decoration: none;}
-a:active {text-decoration: none;}
-a:hover {text-decoration: none;}
-a {color: #000;}
-
-.clearfix-left::after {
-    content: '';
-    display: table;
-    clear: left;
-}
-
-.width1 { 
-    max-width: 1200px;
-    margin: auto;
-}
-
-.width2 {
-    max-width: 1000px;
-    margin: auto;
-}
-
-.width3 {
-    max-width: 800px;
-    margin: auto;
-}
-
-.margintop1 {
-    margin-top: 100px;
-}
-
-.marginbottom1 {
-    margin-bottom: 100px;
-}
-
-.button1 {
-    background-color: #0061FF;
-    color: #FFF;
-    padding: 5px 10px;
-}
-
-.button1bis {
-    width: 50px;
-}
-
 /* INIZIO HEADER */
 
 header {
@@ -116,8 +61,8 @@ header {
     padding-top: 30px;
 }
 
-.txt-jumbotron {
-    font-size: 28px;
+.txt-jumbotron > h1 {
+    font-size: 60px;
 }
 
 .sec-left-jumbotron {
@@ -140,8 +85,43 @@ header {
     width: 100%;
 }
 
+/* FINE JUMBOTRON */
 
+/* INIZIO SECTION 1 */
 
+.txt1-sec1 > h2 {
+    font-size: 35px;
+}
+
+.payment-option {
+    display: flex;
+}
+
+.circle1 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 5px solid #0061FF;
+    border-radius: 50%;
+    padding: 4px;
+    vertical-align: middle;
+}
+
+.circle2 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 7px;
+    vertical-align: middle;
+}
+
+.txt-pay-op {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px 0 3px;
+}
 
 .plan-sec1 {
     display: flex;
@@ -151,6 +131,57 @@ header {
 .plan-sec1 > div {
     width: 30%;
 }
+
+.plan1-sec1, .plan2-sec1, .plan3-sec1 {
+    border: 1px solid gray;
+}
+
+.top-plan-sec1 {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-plan-sec1 > i {
+    margin-right: 5px;
+}
+
+.body-plan-sec1 {
+    padding: 20px 10px;
+}
+
+.body-plan-sec1 > h3 {
+    font-size: 22px;
+}
+
+.list-info {
+    display: flex;
+}
+
+.list-info i {
+    display: block;
+    width: 27px;
+    line-height: 22px;
+}
+
+.list-info span {
+    display: block;
+    width: calc(100% - 20px);
+}
+
+.fx-smallborder {
+    width: 30px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
 
 .sec2-container {
     display: flex;
