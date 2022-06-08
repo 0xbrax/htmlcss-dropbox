@@ -75,6 +75,7 @@ body {
 
 .plan-sec1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -94,6 +95,16 @@ body {
     width: 40%
 }
 
+.card-sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-sec3 > div {
+    width: 30%;
+    margin-top: 20px;
+}
 
 /* Debug body class per layout */
 
@@ -108,6 +119,7 @@ body {
 
 .debug .txt-jumbotron {
     background-color: yellow;
+    border: 5px solid black;
     height: 150px;
 }
 
@@ -120,7 +132,7 @@ body {
 .debug .sec-right-jumbotron {
     background-color: yellow;
     border: 5px solid black;
-    height: 320px;
+    height: 300px;
 }
 
 .debug .sec1-container .txt1-sec1, .debug .sec1-container .txt2-sec1 {
@@ -141,3 +153,20 @@ body {
     height: 250px;
 }
 
+.debug .sec3-container .txt-sec3 {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.debug .card-sec3 > div {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 300px;
+}
+
+.debug .sec4-container .txt-sec4 {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 100px;
+}
