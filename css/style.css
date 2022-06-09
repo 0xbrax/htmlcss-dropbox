@@ -213,15 +213,25 @@ header {
 }
 
 .card-sec3-row1 > div, .card-sec3-row2 > div {
-    width: 30%;
+    width: calc(94% / 3);
     margin-top: 20px;
 }
 
+.card-sec3 img {
+    width: 100%;
+}
 
+/* FINE SECTION 3 */
 
+/* INIZIO SECTION 4 */
 
+.txt-sec4 {
+    width: 70%;
+}
 
+/* FINE SECTION 4 */
 
+/* INIZIO SECTION 5 */
 
 .img-sec5 {
     display: flex;
