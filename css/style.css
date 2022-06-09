@@ -64,7 +64,7 @@ header {
 /* INIZIO JUMBOTRON */
 
 .jumbotron-container {
-    margin: 70px 0 130px 0;
+    margin-top: 70px;
     background-color: #B4D0E7;
 }
 
@@ -378,6 +378,10 @@ footer {
 
 .language-select {
     padding: 30px 0;
+}
+
+.language-select a {
+    color: #FFF;
 }
 
 .language-select span {
