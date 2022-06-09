@@ -1,6 +1,5 @@
 /* Debug body class per layout */
 
-/*
 .debug .topbar-container {
     background-color: blue;
 }
@@ -74,7 +73,7 @@
     border: 5px solid black;
     height: 100px;
 }
-*/
+
 .debug .sec7-container > div {
     background-color: aqua;
     border: 5px solid black;

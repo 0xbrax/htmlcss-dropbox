@@ -13,6 +13,7 @@ header {
 .topbar-container {
     height: 70px;
     display: flex;
+    padding: 15px;
 }
 
 .topbar-container > div {
@@ -29,6 +30,11 @@ header {
     height: 25px;
 }
 
+.logo-container {
+    padding: 5px;
+    margin-right: 30px;
+}
+
 .topbar-right {
     display: flex;
     align-items: center;
@@ -41,12 +47,16 @@ header {
 }
 
 .topbar-container a {
-    margin: 0 5px;
-    padding: 5px;
+    display: flex;
+    align-items: center;
 }
 
-.topbar-container ul li .button1bis, .topbar-container ul li .button2bis {
-    margin-right: 5px;
+.topbar-right .button1bis {
+    margin-left: 10px;
+}
+
+.topbar-right .button2bis {
+    margin-left: 20px;
 }
 
 /* FINE HEADER */
@@ -162,8 +172,8 @@ header {
     width: calc(100% - 27px);
 }
 
-.fx-smallborder {
-    width: 30px;
+.fx-smallborder1 {
+    width: 60px;
     border-bottom: 1px solid gray;
 }
 
@@ -315,21 +325,64 @@ header {
 
 /* INIZIO SECTION 7 */
 
+.sec7-container > div:nth-child(1n+2) {
+    border-top: 1px solid gray;
+    padding: 20px 0;
+}
 
+.sec7-container > div:last-child {
+    border-bottom: 1px solid gray;
+}
 
+/* FINE SECTION 7 */
 
-
-
+/* INIZIO FOOTER */
 
 footer {
     background-color: #000;
+    color: #FFF;
+}
+
+.bottombar-container {
+    padding: 0 15px;
 }
 
 .link-bottom {
-    padding: 50px 0;
+    padding: 60px 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .link-bottom > div {
-    width: calc(100% / 5);
+    width: calc(95% / 5);
 }
+
+.link-bottom ul {
+    list-style: none;
+}
+
+.link-bottom ul li {
+    margin: 10px 0;
+}
+
+.link-bottom ul li a {
+    color: #FFF;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.fx-smallborder2 {
+    width: 150px;
+    border-bottom: 1px solid #FFF;
+}
+
+.language-select {
+    padding: 30px 0;
+}
+
+.language-select span {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* FINE FOOTER */
