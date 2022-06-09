@@ -3,23 +3,35 @@ html {
 }
 
 .fxbutton1:hover {
-    background-color: rgba(0, 97, 255, 0.2);
-    filter: opacity(0.8);
-    border-bottom: 4px solid #0061FF;
+    background-color: rgba(0, 97, 255, 0.1);
+    filter: opacity(0.9);
+    box-shadow: inset 0px -5px 0px 0px #0061FF;
+}
+
+.fxbutton2:hover {
+    filter: opacity(0.7);
 }
 
 .fximg1 {
-    transition: border 1s ease;
+    transition: border 0.3s ease-out 0.1s;
 }
 
 .fximg1:hover {
-    border: 10px solid rgba(255, 255, 255, 0.5);
+    border: 10px solid rgba(255, 255, 255, 0.4);
 }
 
 .fximg1-width {
-    transition: border 1s ease;
+    transition: width 0.3s ease-out 0.1s;
 }
 
 .fximg1:hover img {
     width: 70%;
+}
+
+.fxfaq-visibility:hover .fxfaq-visibility1 {
+    display: block;
+}
+
+.fxfaq-visibility:hover .fxfaq-visibility2 {
+    display: none;
 }
