@@ -240,14 +240,13 @@ header {
 .img-sec5 > div {
     width: calc(100% / 3);
     aspect-ratio: 1 / 1;
+    background-color: #F5F5F5;
 }
 
 .imgleft-sec5, .imgright-sec5 {
     display: flex;
     flex-wrap: wrap;
 }
-
-/* INIZIO loghi Sezione 5 */
 
 .imgleft-sec5 > div {
     width: calc(100% / 2);
@@ -291,7 +290,9 @@ header {
     background-color: #FFD830;
 }
 
-/* FINE loghi Sezione 5 */
+/* FINE SECTION 5 */
+
+/* INIZIO SECTION 6 */
 
 .sec6-container {
     background-color: #B4D0E7;
@@ -309,6 +310,10 @@ header {
 .sec-right-sec6 {
     width: 40%;
 }
+
+
+
+
 
 footer {
     background-color: #000;
