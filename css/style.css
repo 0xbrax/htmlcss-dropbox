@@ -61,10 +61,6 @@ header {
     padding-top: 30px;
 }
 
-.txt-jumbotron > h1 {
-    font-size: 60px;
-}
-
 .sec-left-jumbotron {
     width: 40%;
     float: left;
@@ -88,10 +84,6 @@ header {
 /* FINE JUMBOTRON */
 
 /* INIZIO SECTION 1 */
-
-.txt1-sec1 > h2 {
-    font-size: 35px;
-}
 
 .payment-option {
     display: flex;
@@ -132,17 +124,17 @@ header {
     width: 30%;
 }
 
-.plan1-sec1, .plan2-sec1, .plan3-sec1 {
+.plan1-sec1, .plan2-sec1, .plan3-sec1, .txt2-sec1 {
     border: 1px solid gray;
 }
 
-.top-plan-sec1 {
+.top-plan-sec1, .bottom-plan-sec1 {
     border-bottom: 1px solid gray;
     text-align: center;
     padding: 10px 0;
 }
 
-.top-plan-sec1 > i {
+.top-plan-sec1 > i, .bottom-plan-sec1 > i {
     margin-right: 5px;
 }
 
@@ -150,8 +142,8 @@ header {
     padding: 20px 10px;
 }
 
-.body-plan-sec1 > h3 {
-    font-size: 22px;
+.list-info-container .list-info:last-child {
+    min-height: 88px;
 }
 
 .list-info {
@@ -166,7 +158,7 @@ header {
 
 .list-info span {
     display: block;
-    width: calc(100% - 20px);
+    width: calc(100% - 27px);
 }
 
 .fx-smallborder {
@@ -174,14 +166,24 @@ header {
     border-bottom: 1px solid gray;
 }
 
+.txt2-container-sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
 
+.txt2-container-sec1 div:first-child {
+    width: 60%;
+}
 
+.txt2-container-sec1 div:last-child {
+    width: 30%;
+}
 
+/* FINE SECTION 1 */
 
-
-
-
-
+/* INIZIO SECTION 2 */
 
 .sec2-container {
     display: flex;
@@ -194,6 +196,13 @@ header {
 .right-sec2 {
     width: 40%
 }
+
+
+
+
+
+
+
 
 .card-sec3-row1, .card-sec3-row2 {
     display: flex;
@@ -210,16 +219,11 @@ header {
 }
 
 .img-sec5 > div {
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
     aspect-ratio: 1 / 1;
 }
 
-.imgleft-sec5 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.imgright-sec5 {
+.imgleft-sec5, .imgright-sec5 {
     display: flex;
     flex-wrap: wrap;
 }
