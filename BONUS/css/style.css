@@ -1,0 +1,423 @@
+/* INIZIO HEADER */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+    background-color: #FFF;
+}
+
+.topbar-container {
+    height: 70px;
+    display: flex;
+    padding: 15px;
+}
+
+.topbar-container > div {
+    height: 100%;
+    width: calc(100% / 2);
+}
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+}
+
+#logo-main {
+    height: 25px;
+}
+
+.logo-container {
+    padding: 5px;
+    margin-right: 30px;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.topbar-left ul, .topbar-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.topbar-container a {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-right .button1bis {
+    margin-left: 10px;
+}
+
+.topbar-right .button2bis {
+    margin-left: 20px;
+}
+
+/* FINE HEADER */
+
+/* INIZIO JUMBOTRON */
+
+.jumbotron-container {
+    margin-top: 70px;
+    background-color: #B4D0E7;
+}
+
+.jumbotron {
+    padding-top: 30px;
+}
+
+.sec-left-jumbotron {
+    width: 40%;
+    float: left;
+    padding: 15px 0;
+}
+
+.sec-left-jumbotron div {
+    margin-top: 30px;
+}
+
+.sec-right-jumbotron {
+    width:  60%;
+    float: right;
+    padding-top: 15px;
+}
+
+.sec-right-jumbotron img {
+    width: 100%;
+}
+
+/* FINE JUMBOTRON */
+
+/* INIZIO SECTION 1 */
+
+.payment-option {
+    display: flex;
+}
+
+.circle1 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 5px solid #0061FF;
+    border-radius: 50%;
+    padding: 4px;
+    vertical-align: middle;
+}
+
+.circle2 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    padding: 7px;
+    vertical-align: middle;
+}
+
+.txt-pay-op {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px 0 3px;
+}
+
+.plan-sec1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-sec1 > div {
+    width: 30%;
+}
+
+.plan1-sec1, .plan2-sec1, .plan3-sec1, .txt2-sec1 {
+    border: 1px solid #CCC;
+}
+
+.top-plan-sec1, .bottom-plan-sec1 {
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-plan-sec1 > i, .bottom-plan-sec1 > i {
+    margin-right: 5px;
+}
+
+.body-plan-sec1 {
+    padding: 20px 10px;
+}
+
+.list-info-container .list-info:last-child {
+    min-height: 88px;
+}
+
+.list-info {
+    display: flex;
+}
+
+.list-info i {
+    display: block;
+    width: 27px;
+    line-height: 22px;
+}
+
+.list-info span {
+    display: block;
+    width: calc(100% - 27px);
+}
+
+.fx-smallborder1 {
+    width: 60px;
+    border-bottom: 1px solid #CCC;
+}
+
+.txt2-container-sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.txt2-container-sec1 div:first-child {
+    width: 60%;
+}
+
+.txt2-container-sec1 div:last-child {
+    width: 30%;
+}
+
+/* FINE SECTION 1 */
+
+/* INIZIO SECTION 2 */
+
+.sec2-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-sec2 {
+    width: 60%;
+}
+
+.left-sec2 img {
+    width: 100%;
+}
+
+.right-sec2 {
+    width: 30%
+}
+
+/* FINE SECTION 2 */
+
+/* INIZIO SECTION 3 */
+
+.card-sec3-row1, .card-sec3-row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-sec3-row1 > div, .card-sec3-row2 > div {
+    width: calc(94% / 3);
+    margin-top: 20px;
+}
+
+.card-sec3 img {
+    width: 100%;
+}
+
+/* FINE SECTION 3 */
+
+/* INIZIO SECTION 4 */
+
+.txt-sec4 {
+    width: 70%;
+}
+
+/* FINE SECTION 4 */
+
+/* INIZIO SECTION 5 */
+
+.img-sec5 {
+    display: flex;
+}
+
+.img-sec5 > div {
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+    background-color: #F5F5F5;
+}
+
+.imgleft-sec5, .imgright-sec5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgleft-sec5 > div {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+}
+
+.logo1-sec5 {
+    background-color: #A2D39B;
+}
+
+.logo2-sec5 {
+    background-color: #61082B;
+}
+
+.logo3-sec5 {
+    background-color: #0093CE;
+}
+
+.logo4-sec5 {
+    background-color: #FF1C1C;
+}
+
+.imgcenter-sec5 {
+    padding: 30px;
+    overflow-y: hidden;
+}
+
+#logotxthero {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logotxthero p {
+    font-size: 22px;
+}
+
+#logotxthero i {
+    font-size: 60px;
+}
+
+.fxborder-sec5 {
+    width: 60px;
+    border-top: 1px solid #000;
+}
+
+.imgright-sec5 > div {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+}
+
+.logo5-sec5 {
+    background-color: #D5001F;
+}
+
+.logo6-sec5 {
+    background-color: #B4D0E7;
+}
+
+.logo7-sec5 {
+    background-color: #0D2481;
+}
+
+.logo8-sec5 {
+    background-color: #FFD830;
+}
+
+/* FINE SECTION 5 */
+
+/* INIZIO SECTION 6 */
+
+.sec6-container {
+    background-color: #B4D0E7;
+}
+
+.sec6-section {
+    padding: 100px 0;
+    display: flex;
+}
+
+.sec-left-sec6 {
+    width: 60%;
+}
+
+.sec-right-sec6 {
+    width: 40%;
+}
+
+/* FINE SECTION 6 */
+
+/* INIZIO SECTION 7 */
+
+.sec7-container > div:nth-child(1n+2) {
+    border-top: 1px solid #CCC;
+    padding: 20px 0;
+}
+
+.sec7-container > div:last-child {
+    border-bottom: 1px solid #CCC;
+}
+
+.fxfaq-visibility1 {
+    display: none;
+}
+
+/* FINE SECTION 7 */
+
+/* INIZIO FOOTER */
+
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+.bottombar-container {
+    padding: 0 15px;
+}
+
+.link-bottom {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-bottom > div {
+    width: calc(95% / 5);
+}
+
+.link-bottom ul {
+    list-style: none;
+}
+
+.link-bottom ul li {
+    margin: 10px 0;
+}
+
+.link-bottom ul li a {
+    color: #FFF;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.fx-smallborder2 {
+    width: 150px;
+    border-bottom: 1px solid #FFF;
+}
+
+.language-select {
+    padding: 30px 0;
+}
+
+.language-select a {
+    color: #FFF;
+}
+
+.language-select span {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* FINE FOOTER */

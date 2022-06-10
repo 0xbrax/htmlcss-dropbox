@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.fxbutton1:hover {
+    background-color: rgba(0, 97, 255, 0.1);
+    filter: opacity(0.9);
+    box-shadow: inset 0px -5px 0px 0px #0061FF;
+}
+
+.fxbutton2:hover {
+    filter: opacity(0.7);
+}
+
+.fximg1 {
+    transition: border 0.3s ease-out 0.1s;
+}
+
+.fximg1:hover {
+    border: 10px solid rgba(255, 255, 255, 0.4);
+}
+
+.fximg1-width {
+    transition: width 0.3s ease-out 0.1s;
+}
+
+.fximg1:hover img {
+    width: 70%;
+}
+
+.imgcenter-sec5:hover {
+    overflow-y: overlay;
+}
+
+
+
+/*
+
+AGGIUNGI ANIMAZIONE EFFETTO FRECCE SELEZIONE LOGHI
+
+SISTEMA LE FAQ CON JAVASCRIPT
+
+*/
+
+
+
+.fxfaq-visibility:hover .fxfaq-visibility1 {
+    display: block;
+}
+
+.fxfaq-visibility:hover .fxfaq-visibility2 {
+    display: none;
+}
+
+#logotxt1, #logotxt2, #logotxt3, #logotxt4, #logotxt5, #logotxt6, #logotxt7, #logotxt8 {
+    display: none;
+}

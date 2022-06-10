@@ -1,0 +1,93 @@
+/* Debug body class per layout */
+
+.debug .topbar-container {
+    background-color: blue;
+}
+
+.debug .topbar-container > div {
+    background-color: orange;
+    border: 5px solid black;
+}
+
+.debug .txt-jumbotron {
+    background-color: yellow;
+    border: 5px solid black;
+    height: 150px;
+}
+
+.debug .sec-left-jumbotron {
+    background-color: yellow;
+    border: 5px solid black;
+    height: 250px;
+}
+
+.debug .sec-right-jumbotron {
+    background-color: yellow;
+    border: 5px solid black;
+    height: 300px;
+}
+
+.debug .sec1-container .txt1-sec1, .debug .sec1-container .txt2-sec1 {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.debug .plan-sec1 > div {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 400px;
+}
+
+.debug .sec2-container > div {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 250px;
+}
+
+.debug .sec3-container .txt-sec3 {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.debug .card-sec3-row1 > div, .debug .card-sec3-row2 > div {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 300px;
+}
+
+.debug .sec4-container .txt-sec4 {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.debug .img-sec5 > div {
+    background-color: yellow;
+    border: 5px solid black;
+}
+
+.debug .sec6-section > div {
+    background-color: yellow;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.debug .sec7-container > div {
+    background-color: aqua;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.debug .link-bottom > div {  
+    background-color: yellow;
+    border: 5px solid red;
+    height: 100px;
+}
+
+.debug .bottombar-container .language-select {
+    background-color: yellow;
+    border: 5px solid red;
+    height: 50px;
+}
