@@ -148,3 +148,7 @@ h3 {
 .img-width1 {
     width: 50%;
 }
+
+.listli-min-h {
+    min-height: 88px;
+}

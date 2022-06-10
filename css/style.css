@@ -157,19 +157,18 @@ header {
     min-height: 88px;
 }
 
-.list-info {
-    display: flex;
+.list-info-container {
+    margin-left: 20px;
 }
 
-.list-info i {
-    display: block;
-    width: 27px;
-    line-height: 22px;
+.list-info-container ul {
+    list-style: none;
+    text-indent: -10px;
 }
 
-.list-info span {
-    display: block;
-    width: calc(100% - 27px);
+.list-info-container i {
+    display: inline-block;
+    margin-right: 5px;
 }
 
 .fx-smallborder1 {
