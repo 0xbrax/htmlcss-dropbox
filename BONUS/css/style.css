@@ -293,12 +293,34 @@ header {
     align-items: center;
 }
 
+#logotxthero > div {
+    width: 100%;
+    height: calc(100% / 3);
+    position: relative;
+}
+
 #logotxthero p {
     font-size: 22px;
 }
 
 #logotxthero i {
     font-size: 60px;
+}
+
+.arrowmove1 {
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.arrowmove2 {
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    transform: translate(50%, 0);
 }
 
 .fxborder-sec5 {
