@@ -72,6 +72,10 @@ a {color: #000;}
     padding: 10px;
 }
 
+.lineheight1 {
+    line-height: 70px;
+}
+
 .color1 {
     color: #0061FF;
 }

@@ -39,6 +39,7 @@ a {color: #000;}
     height: 70px;
 }
 
+/* margin padding */
 .margintop1 {
     padding-top: 100px;
 }
@@ -69,6 +70,10 @@ a {color: #000;}
 
 .padding1 {
     padding: 10px;
+}
+
+.lineheight1 {
+    line-height: 70px;
 }
 
 .color1 {

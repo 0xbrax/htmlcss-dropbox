@@ -46,11 +46,6 @@ header {
     display: flex;
 }
 
-.topbar-container a {
-    display: flex;
-    align-items: center;
-}
-
 .topbar-right .button1bis {
     margin-left: 10px;
 }
